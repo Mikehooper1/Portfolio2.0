@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #141414;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+text-decoration: none;
+color: #fff;
+}
+
+.logo img {
+height: 50px;
+}
+
+.search input[type="text"] {
+padding: 10px;
+border-radius: 5px;
+border: none;
+width: 300px;
+}
+
+.menu a {
+margin-left: 20px;
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+}
+
+.hero {
+background-image: url("https://i.imgur.com/xfK7yv0.png");
+background-repeat: no-repeat;
+background-size: cover;
+height: 90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.hero-content {
+text-align: center;
+}
+
+.hero-content h1 {
+font-size: 50px;
+margin-bottom: 20px;
+}
+
+.hero-content p {
+font-size: 20px;
+margin-bottom: 30px;
+}
+
+.btn {
+background-color: #e50914;
+color: #fff;
+padding: 10px 30px;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+}
+
+.popular {
+background-color: #fff;
+padding: 40px;
+}
+
+.popular h2 {
+font-size: 30px;
+margin-bottom: 20px;
+}
+
+.popular-content {
+display: flex;
+}
+
+.movie {
+margin-right: 20px;
+text-align: center;
+}
+
+.movie img {
+height: 400px;
+}
+
+.movie h3 {
+margin-top: 10px;
+font-size: 20px;
+font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+header {
+flex-wrap: wrap;
+padding: 20px;
+}
+
+.search input[type="text"] {
+width: 200px;
+}
+
+.menu a {
+margin-left: 10px;
+}
+
+.hero {
+height: 70vh;
+}
+
+.hero-content h1 {
+font-size: 40px;
+}
+
+.hero-content p {
+font-size: 18px;
+}
+
+.btn {
+padding: 10px 20px;
+}
+
+.popular {
+padding: 20px;
+}
+
+.movie {
+margin-right: 10px;
+}
+
+.movie img {
+height: 250px;
+}
+
+.movie h3 {
+font-size: 16px;
+}
+}  

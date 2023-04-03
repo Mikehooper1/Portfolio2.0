@@ -1,0 +1,41 @@
+.container {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  label, input {
+    font-size: 1.2em;
+  }
+  
+  button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #004080;
+  }
+  
+  #result {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
