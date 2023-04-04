@@ -54,7 +54,7 @@ font-weight: bold;
 }
 
 .hero {
-background-image: url("https://i.imgur.com/xfK7yv0.png");
+background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/2e884ce2-da1c-4501-ab9a-10c534d30975/6973a9ea-02b2-4de9-9006-d7d224c9b75d/IN-en-20230327-popsignuptwoweeks-perspective_alpha_website_small.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 height: 90vh;
@@ -70,11 +70,13 @@ text-align: center;
 .hero-content h1 {
 font-size: 50px;
 margin-bottom: 20px;
+color: #fff;
 }
 
 .hero-content p {
 font-size: 20px;
 margin-bottom: 30px;
+color: #fff;
 }
 
 .btn {
